@@ -1,0 +1,6 @@
+.RightFooter ul li{
+    list-style: none;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+}

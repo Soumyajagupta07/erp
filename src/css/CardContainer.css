@@ -1,0 +1,13 @@
+.CardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .CardContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

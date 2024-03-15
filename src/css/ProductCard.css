@@ -1,0 +1,31 @@
+.ProductCard{
+    border: 1px solid white;
+    margin: 40px;
+    padding: 10px;
+    /* height: 300px; */
+    width: 200px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.control_stock{
+    display: flex;
+}
+.control_stock p{
+    margin: 0;
+    margin-right: 40px;
+    width: fit-content;
+}
+
+.control_stock button{
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid rgb(59,172,134);
+    cursor: pointer;
+    color: rgb(59,172,134);
+}
+
+.control_stock button:hover{
+    background-color: rgb(59,172,134);
+    color: white;
+}

@@ -1,0 +1,32 @@
+/* dashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px transparent wheat;
+  }
+  
+  .dashboard-container::shadow{
+    
+  }
+  .dashboard-container:hover{
+    border-color: aqua;
+  }
+  .main {
+    margin-bottom: 20px;
+  }
+  
+  .links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links li {
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: blue;
+  }
+  

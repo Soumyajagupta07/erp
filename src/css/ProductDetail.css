@@ -1,0 +1,43 @@
+.manipulate_products input{
+    height: 35px;
+}
+
+.manipulate_products button{
+    margin-right: 20px;
+    cursor: pointer;
+    color: rgb(59, 172, 134);
+    background-color: white;
+    border: 1px solid rgb(59, 172, 134);
+    height: 40px;
+    width: 40px;
+} 
+
+.manipulate_products button:hover{
+    color: white;
+    background-color: rgb(59, 172, 134);
+    border: white;
+
+}
+
+.controller{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#category{
+    height: 50px;
+    width: 130px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.close_addProduct_button{
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(59,172,134);
+    border-radius: 10px;
+    cursor: pointer;
+}

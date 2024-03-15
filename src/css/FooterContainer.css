@@ -1,0 +1,33 @@
+.Footer {
+    background-color: rgb(59,172,134);
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.FooterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.Footer p {
+    text-align: center;
+    color: white;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .FooterContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FooterContainer > * {
+        margin-bottom: 20px; /* Adjust spacing between items */
+    }
+}

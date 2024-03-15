@@ -1,0 +1,44 @@
+.NavigationMenu{
+    display: flex;
+}
+
+.navbar{
+    margin-right: 70px;
+    
+ }
+
+ .nav_control_button{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(230, 235, 235);
+ }
+
+ .control_nav_img{
+    height: 30px;
+    width: 30px;
+    padding: 5px
+ }
+.navbar ul{
+    padding: 0px;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 0px;
+    
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar ul li:hover{
+    background-color: rgb(59, 172, 134);
+    
+    transition: 0.5s ease-in-out;
+}
+
+.navbar ul li a:hover{
+    color: white;
+}

@@ -1,0 +1,24 @@
+.EmptyCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    margin: 40px;
+    padding: 10px;
+    height: 305px;
+    width: 200px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.EmptyCard button{
+    border-radius: 95px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.EmptyCard button:hover{
+    border: 2px solid rgb(59,172 ,134 );
+}

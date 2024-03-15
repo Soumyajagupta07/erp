@@ -1,0 +1,21 @@
+.Card{
+    border: 1px solid black;
+    width: 350px;
+    margin: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.Card p{
+    text-align: center;
+    font-size: 40px;
+}
+
+.dashboard_card_button{
+    height: 50px;
+    background-color: rgb(59, 172, 134);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
